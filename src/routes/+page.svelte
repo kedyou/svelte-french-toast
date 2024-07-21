@@ -91,7 +91,7 @@
 			</a>
 		</div>
 		<p class="mt-5 text-sm border rounded-full px-2 py-1 text-gray-500">
-			<a href="https://npmjs.com/package/svelte-french-toast">Version {pkg.version}</a>
+			<a href={pkg.repository.url}>Version {pkg.version}</a>
 		</p>
 		<div class="grid grid-cols-2 md:grid-cols-3 gap-4 self-stretch mt-10 font-medium">
 			{#each ['Emoji Support', 'Customizable', 'Promise API', 'Pause on hover', 'Accessible', 'Headless use'] as feature}
