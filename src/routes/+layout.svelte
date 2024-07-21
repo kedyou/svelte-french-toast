@@ -30,4 +30,5 @@
 	/>
 	<meta property="twitter:image" content="https://svelte-french-toast.com/og-image.png" />
 </svelte:head>
+
 <slot />
