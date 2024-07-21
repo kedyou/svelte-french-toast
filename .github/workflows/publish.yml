@@ -16,17 +16,21 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-      # Setup .npmrc file to publish to GitHub Packages
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20.x'
           registry-url: 'https://npm.pkg.github.com'
-          # Defaults to the user or organization that owns the workflow file
+
       - uses: pnpm/action-setup@v3
         with:
           version: 8
-          scope: '@kedyou'
-      - run: pnpm install
+
+      - name: Install dependencies and test
+        run: |
+          pnpm install
+          pnpm test
+
       - run: pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

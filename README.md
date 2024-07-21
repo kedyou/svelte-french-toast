@@ -1,17 +1,17 @@
 <img src="./header-image.png" alt="" />
 <p align="center">
 <img src="https://badgen.net/badge/license/MIT/blue" />
-<img src="https://badgen.net/npm/v/svelte-french-toast" />
+<img src="https://badgen.net/github/release/kedyou/svelte-french-toast/stable" />
 </p>
 <p align="center">
-<a href="https://svelte-french-toast.vercel.app">Website</a> · <a href="https://npmjs.com/package/svelte-french-toast">NPM Package</a>
+<a href="https://kedyou.github.io/svelte-french-toast/">Website</a> · <a href="https://github.com/kedyou/svelte-french-toast/pkgs/npm/svelte-french-toast">NPM Package</a>
 </p>
 
 # svelte-french-toast
 
 > Buttery smooth Svelte notifications.
 
-svelte-french-toast is a Svelte port of Timo Lins’s react-hot-toast, a lightweight, customizable, and beautiful-by-default toast notification library.
+This is a fork of [svelte-french-toast](https://github.com/kbrgl/svelte-french-toast) by [kbrgl](https://github.com/kbrgl), which is a Svelte port of Timo Lins’s react-hot-toast, a lightweight, customizable, and beautiful-by-default toast notification library.
 
 ## Installation
 
@@ -22,7 +22,7 @@ npm install svelte-french-toast
 ```
 
 ```
-pnpm install svelte-french-toast
+pnpm add svelte-french-toast
 ```
 
 ```
@@ -46,7 +46,7 @@ Mount a `<Toaster />` at the top level of your app and use the `toast` API to di
 <button type="button" on:click={handleClick}>Toast</button>
 ```
 
-For more usage examples, see [the website](https://svelte-french-toast.vercel.app).
+For more usage examples, see [the website](https://github.com/kedyou/svelte-french-toast/deployments/github-pages).
 
 ## Thanks
 

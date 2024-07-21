@@ -8,6 +8,7 @@
 		"toast",
 		"snackbar"
 	],
+	"homepage": "https://kedyou.github.io/svelte-french-toast/",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kedyou/svelte-french-toast.git"

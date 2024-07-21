@@ -78,7 +78,7 @@
 				<span>Launch toast</span>
 			</button>
 			<a
-				href="https://github.com/kbrgl/svelte-french-toast"
+				href={pkg.repository.url}
 				class="flex items-center space-x-2 text-gray-500"
 			>
 				<svg class="h-5 w-5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
