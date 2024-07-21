@@ -18,7 +18,7 @@
 
 	const installers = [
 		{ name: 'NPM', cmd: 'npm install svelte-french-toast' },
-		{ name: 'PNPM', cmd: 'pnpm install svelte-french-toast' },
+		{ name: 'PNPM', cmd: 'pnpm add svelte-french-toast' },
 		{ name: 'Yarn', cmd: 'yarn add svelte-french-toast' },
 		{ name: 'Bun', cmd: 'bun add svelte-french-toast' }
 	];
